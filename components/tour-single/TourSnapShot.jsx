@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const TourSnapShot = () => {
   return (
     <div className="row y-gap-30 justify-between pt-20">
@@ -39,9 +41,9 @@ const TourSnapShot = () => {
           <i className="icon-access-denied text-22 text-blue-1 mr-10"></i>
           <div className="text-15 lh-15">
             Free cancellation <br />
-            <a href="#" className="text-blue-1 underline">
+            <Link href="/others-pages/help-center" className="text-blue-1 underline">
               Learn more
-            </a>
+            </Link>
           </div>
         </div>
       </div>

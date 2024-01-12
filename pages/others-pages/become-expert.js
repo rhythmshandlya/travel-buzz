@@ -41,7 +41,7 @@ const BecomeExpert = () => {
               </div>
               <div className="d-inline-block">
                 <Link
-                  href="/pages/signup"
+                  href="/others-pages/signup"
                   className="button -md -blue-1 w-180 bg-white text-dark-1 mt-30 md:mt-20"
                 >
                   Register

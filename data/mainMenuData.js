@@ -136,7 +136,7 @@ export const categorieMegaMenuItems = [
         megaBanner: "/img/backgrounds/7.png",
         title: "Things to do on your hotel",
         btnText: "See Hotel",
-        btnRoute: "/hotel/hotel-list-v1",
+        btnRoute: "/tour",
         menuItems: [
           {
             id: 1,
@@ -144,7 +144,7 @@ export const categorieMegaMenuItems = [
             menuList: [
               {
                 name: "Hotel List v1",
-                routePath: "/hotel/hotel-list-v1",
+                routePath: "/tour",
               },
               {
                 name: "Hotel List v2",
@@ -441,7 +441,7 @@ export const categorieMobileItems = [
         menuList: [
           {
             name: "Hotel List v1",
-            routePath: "/hotel/hotel-list-v1",
+            routePath: "/tour",
           },
           {
             name: "Hotel List v2",
